@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: frappe_cloud
+Version: 0.0.1
+Summary: Frappe Cloud API
+Author: rajvi
+Author-email: rajvi@webisoft.com
+Requires-Dist: click==8.1.7
+Requires-Dist: coreapi==2.3.3
+Requires-Dist: kubernetes==29.0.0

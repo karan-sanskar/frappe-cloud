@@ -1,0 +1,4 @@
+# frappe -- https://github.com/frappe/frappe is installed via 'bench init'
+click==8.1.7
+coreapi==2.3.3
+kubernetes==29.0.0

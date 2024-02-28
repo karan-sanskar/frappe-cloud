@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include frappe_cloud *.css
+recursive-include frappe_cloud *.csv
+recursive-include frappe_cloud *.html
+recursive-include frappe_cloud *.ico
+recursive-include frappe_cloud *.js
+recursive-include frappe_cloud *.json
+recursive-include frappe_cloud *.md
+recursive-include frappe_cloud *.png
+recursive-include frappe_cloud *.py
+recursive-include frappe_cloud *.svg
+recursive-include frappe_cloud *.txt
+recursive-exclude frappe_cloud *.pyc

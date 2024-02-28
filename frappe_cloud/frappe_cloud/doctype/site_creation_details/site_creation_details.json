@@ -1,0 +1,129 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-27 19:19:41.534198",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "site_name",
+  "password",
+  "site_status",
+  "site_config",
+  "column_break_mcqi",
+  "site_job_name",
+  "site_job_type",
+  "site_job_status",
+  "site_job_logs",
+  "ingrress_logs",
+  "ingress_name",
+  "ingress_type",
+  "ingress_status",
+  "ingress_logs"
+ ],
+ "fields": [
+  {
+   "fieldname": "site_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Site Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Password",
+   "reqd": 1
+  },
+  {
+   "fieldname": "site_status",
+   "fieldtype": "Select",
+   "label": "Site Status",
+   "options": "Unknown\nLive\nError\nDeleted"
+  },
+  {
+   "fieldname": "site_config",
+   "fieldtype": "Link",
+   "label": "Site Config",
+   "options": "Site Config"
+  },
+  {
+   "fieldname": "column_break_mcqi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "site_job_name",
+   "fieldtype": "Data",
+   "label": "Site Job Name"
+  },
+  {
+   "fieldname": "site_job_type",
+   "fieldtype": "Select",
+   "label": "Site Job Type",
+   "options": "Unknown\nCreate\nDelete"
+  },
+  {
+   "fieldname": "site_job_status",
+   "fieldtype": "Select",
+   "label": "Site Job Status",
+   "options": "Unknown\nInitiated\nRunning\nSucceeded\nError"
+  },
+  {
+   "fieldname": "site_job_logs",
+   "fieldtype": "Long Text",
+   "label": "Site Job Logs"
+  },
+  {
+   "fieldname": "ingrress_logs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ingress_name",
+   "fieldtype": "Data",
+   "label": "Ingress Name"
+  },
+  {
+   "fieldname": "ingress_type",
+   "fieldtype": "Select",
+   "label": "Ingress Type",
+   "options": "Unknown\nCreate\nDelete"
+  },
+  {
+   "fieldname": "ingress_status",
+   "fieldtype": "Select",
+   "label": "Ingress Status",
+   "options": "Unknown\nInitiated\nRunning\nSucceeded\nError"
+  },
+  {
+   "fieldname": "ingress_logs",
+   "fieldtype": "Long Text",
+   "label": "Ingress Logs"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-02-27 19:19:41.534198",
+ "modified_by": "Administrator",
+ "module": "Frappe Cloud",
+ "name": "Site Creation Details",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
